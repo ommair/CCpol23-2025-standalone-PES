@@ -11,7 +11,7 @@ DOI: 10.1063/1.4875097
 
 Current version written by: Ommair Ishaque (Dec 12, 2025)
 
-🔹 Overview
+## Overview
 
 CCpol23+ (2025) computes three-body interaction energies of water trimers using an improved FS3 potential energy surface.
 The trimer configuration space is separated using the average monomer separation:
@@ -40,14 +40,14 @@ s = 0                      for x > 1
 
 This ensures continuity of the PES and smooth transitions between the short- and long-range fits.
 
-📁 Project Structure
+## Project Structure
 File / Folder	Description
 input_geo	Input geometries of water trimers (atomic O and H sites only). Includes 13 example trimers.
 fs3_modules/	Modules implementing the short-range PES, long-range PES, damping functions, and switching function.
 Makefile	Build script for compiling all modules and linking the executable.
 execute	Main executable (generated after running make).
 README.md	Documentation file.
-🌐 Input Requirements: input_geo
+* **Input Requirements:** input_geo
 
 The program reads a file named input_geo containing trimer geometries in Cartesian coordinates (Å).
 Only atomic O and H positions are required.
@@ -75,7 +75,7 @@ Total energy = U0 + NB(ind) + 3B(FS3)
 
 All energies are given in kcal/mol.
 
-▶️ Compilation & Execution
+## Compilation & Execution
 Build the program
 make
 
@@ -85,7 +85,7 @@ Run the executable
 Remove build files
 make clean
 
-📊 Example Output
+## Example Output
 **** CCpol23+ (2025) ****
 **** kcal/mol ****
 
@@ -95,7 +95,7 @@ make clean
 3.5590989501     -6.7298255593     -0.7317844679     -0.0386210144     -7.5002310416
 ...
 
-📘 Scientific Background
+## Scientific Background
 
 The CCpol23+ (2025) model refines the three-body representation originally introduced in:
 
@@ -113,27 +113,13 @@ More physically consistent decay of three-body interactions
 
 Increased accuracy for large Ravg configurations relevant to liquid water simulations
 
-🎯 Applications
-
-This code is intended for:
-
-Benchmarking three-body energies in water clusters
-
-Evaluating FS3 contributions for arbitrary trimer geometries
-
-Integration with MD engines (DL_POLY, LAMMPS, MBX)
-
-Supporting the CCpol23+ (2025) publication and Zenodo release
-
-Training/testing new many-body water potentials
-
-💼 License
+## License
 
 Specify your chosen license here, e.g.:
 
 MIT License (recommended for scientific software)
 
-👤 Author
+## Author
 
 Ommair Ishaque
 Ph.D. Candidate – Computational Physics / Molecular Simulations
