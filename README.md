@@ -83,10 +83,10 @@ O  x  y  z
 
 ### Output Quantities
 
-- **U0** — Two-body reference  
-- **NB(ind)** — Non-bonded induction  
-- **3B(FS3)** — Three-body short/long-range potential  
-- **Total Energy** = U0 + NB(ind) + 3B(FS3)
+- **$U_0$** — Two-body reference  
+- **U_{NB}^{\rm ind}** — Non-bonded induction  
+- **$F_{S^3}$** — Three-body short/long-range potential  
+- **Total Energy** = $U_0 + U_{NB}^{\rm ind} + F_{S^3}$
 
 All energies are reported in **kcal/mol**.
 
@@ -139,6 +139,6 @@ Recommended: **MIT License**
 ## 👤 Author
 
 **Ommair Ishaque**  
-Ph.D. Candidate — Computational Physics / Molecular Simulations  
+Ph.D. Candidate — Computational & theoretical Physics/Chemistry  
 University of Delaware  
 GitHub: https://github.com/ommair
