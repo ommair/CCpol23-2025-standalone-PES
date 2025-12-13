@@ -193,6 +193,6 @@ module common_arrays
   real(8) :: Ravg3b,coff(25,3) ! cofficients for offatomic sites
   character(len=3) :: atom(nsite) 
 
-  logical, parameter :: lrd_3b = .false.   
+  logical, parameter :: lrd_3b = .true.   
 
 end module common_arrays
