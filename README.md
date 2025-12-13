@@ -130,7 +130,7 @@ make clean
 
 ---
 
-In the current we have enabled 3B long range damping using global variable 
+In the current version we have enabled 3B long range damping using global variable 
 **logical, parameter :: lrd_3b = .true.**  in common_arrays.f90, 
 ---
 
