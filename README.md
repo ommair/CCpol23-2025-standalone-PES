@@ -83,7 +83,7 @@ O  x  y  z
 
 ### Output Quantities
 
-- **$U_0$** — Two-body reference  
+- **$U_0$** — (repulsive exchange, Coulombic, and Asymptotic Disp & Ind)Two-body reference  
 - **U_{NB}^{\rm ind}** — Non-bonded induction  
 - **$F_{S^3}$** — Three-body short/long-range potential  
 - **Total Energy** = $U_0 + U_{NB}^{\rm ind} + F_{S^3}$
