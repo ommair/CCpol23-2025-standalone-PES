@@ -12,7 +12,7 @@ DOI: 10.1063/1.4875097
 
 ## 📘 Overview
 
-CCpol23+ (2025) computes three-body interaction energies of water trimers using an improved FS3 potential energy surface.  
+CCpol23+ (2025) computes three-body interaction energies of water trimers using an improved $F_{S^3}$ potential energy surface.  
 The trimer configuration space is separated using the average monomer separation:
 
 ### PES Regions
@@ -26,7 +26,7 @@ The trimer configuration space is separated using the average monomer separation
 ### Final Three-Body Energy
 
 ```
-F_S3 = s * F_S3_short + (1 - s) * F_S3_long
+\[F_S3 = s * F_S3_short + (1 - s) * F_S3_long\]
 ```
 
 ---
