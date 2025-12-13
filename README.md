@@ -26,7 +26,7 @@ The trimer configuration space is separated using the average monomer separation
 ### Final Three-Body Energy
 
 ```
-\[F_S3 = s * F_S3_short + (1 - s) * F_S3_long\]
+$ F_{S^3} = s * F_{S^3}^sr + (1 - s) * F_{S^3}^{lr} $
 ```
 
 ---
@@ -36,10 +36,10 @@ The trimer configuration space is separated using the average monomer separation
 ### Switching Variable
 
 ```
-x = (Ravg - Rmin) / (Rmax - Rmin)
+$x = (Ravg - Rmin) / (Rmax - Rmin)$
 
-Rmin = 4.5 Å
-Rmax = 5.5 Å
+$Rmin$ = 4.5 Å
+$Rmax$ = 5.5 Å
 ```
 
 ### Cubic Switching Function s(x)
